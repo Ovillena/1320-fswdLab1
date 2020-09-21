@@ -6,7 +6,7 @@ function addFavouriteMovie(movieName, someArray){
     var i = 0;
     var isFavourite=true; //defining these variables for while loop
 
-    while (i<movieArray.length){
+    while (i<movieArray.length&&isFavourite==true){
         var movieNamePart=movieArray[i]; /*had to turn element of array to string. 
         found that '''If(movieArray[i]=="the")''' crashed VS. console.log showed it kept on looping undefined*/
 
