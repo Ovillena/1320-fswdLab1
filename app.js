@@ -38,7 +38,7 @@ function printFavouriteMovies(){
     while(i<favouriteMoviesLst.length){
         var movie=favouriteMoviesLst[i];
         if(i==favouriteMoviesLst.length - 1){
-            listOfMovies=listOfMovies + "and " + movie;
+            listOfMovies=listOfMovies + "and " + movie; //finds last movie and adds 'and' before it
         }else{
             listOfMovies=listOfMovies + movie + ", ";
         }
